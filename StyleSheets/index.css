@@ -15,7 +15,7 @@ h2 {
 }
 
 h3 {
-	font: 80px arial, sans-serif; 
+	font: 30px arial, sans-serif; 
 	font-weight: 600;
 }
 
@@ -24,7 +24,7 @@ body {
 	height: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: center;
+	/*background-position: center;*/
 	margin: 0;
 	background-image: linear-gradient(white, #dcc7aa);
 	background-size: auto auto;
