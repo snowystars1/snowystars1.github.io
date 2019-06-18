@@ -1,5 +1,5 @@
 html {
-	height: 100%;
+    height: auto;
 }
 
 h1 {
@@ -18,16 +18,34 @@ h3 {
 	font: 30px arial, sans-serif; 
 	font-weight: 600;
 }
-
+/*
 body {
 	text-align: center;
 	height: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	/*background-position: center;*/
 	margin: 0;
-	background-image: linear-gradient(white, #dcc7aa);
 	background-size: auto auto;
+	background-image: linear-gradient(white, #dcc7aa);
+	min-width: 1450px;
+}
+*/
+body {
+	text-align: center;
+	height: 100%;
+	margin: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #dcc7aa;
+    background-repeat: no-repeat;
+    background: linear-gradient(white, #dcc7aa);
+    background: -webkit-linear-gradient( to bottom, white, #dcc7aa);
+    background: -moz-linear-gradient( to bottom, white, #dcc7aa);
+    background: -ms-linear-gradient( to bottom, white, #dcc7aa);
+    background: -o-linear-gradient( to bottom, white, #dcc7aa);
+    background: linear-gradient( to bottom, white, #dcc7aa);
 	min-width: 1450px;
 }
 

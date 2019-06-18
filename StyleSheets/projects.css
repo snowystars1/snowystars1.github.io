@@ -20,7 +20,14 @@ body {
 	background-color: #4b391f;*/
 }
 
-div { 
+p{
+	font: 18px arial sans-serif;
+	font-weight: 500;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+#BodyDiv { 
 	width: 50%;
 	float: left;
 	position: relative;
@@ -31,27 +38,21 @@ div {
 	text-align: center;
 }
 
-p{
-	font: 18px arial sans-serif;
-	font-weight: 500;
-	margin-right: 100px;
-	margin-left: 100px;
-}
-
 #wrapper {
 	width: 100%;
 }
 
 .HomeButton {
-	position: absolute;
+	/*position: absolute;
   	transform: translate(-50%, -50%);
-  	-ms-transform: translate(-50%, -50%);
-  	color: white;
-  	background-color: black;
+  	-ms-transform: translate(-50%, -50%);*/
+  	color: black;
+  	background-color: #a9a9a9;
   	font-family: Verdana, Geneva, sans-serif;
   	font-size: 16px;
  	padding: 12px 24px;
  	cursor: pointer;
+ 	border: 4px solid white;
  	border-radius: 5px;
  	-webkit-transition-duration: 0.4s; /* Safari */
   	transition-duration: 0.4s;
@@ -63,6 +64,7 @@ p{
 	position: absolute;
   	transform: translate(-50%, -50%);
   	-ms-transform: translate(-50%, -50%);
+  	-moz-transform: translate(-50%, -50%);
   	font-family: Verdana, Geneva, sans-serif;
   	background-color: #a9a9a9;
   	color:black;
@@ -77,6 +79,13 @@ p{
 }
 
 .btn:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: black;
+	border-color: white;
+  	color: white;
+}
+
+.HomeButton:hover {
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 	background-color: black;
 	border-color: white;
