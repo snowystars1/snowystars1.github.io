@@ -46,10 +46,9 @@ body {
     background: -o-linear-gradient( to bottom, white, #dcc7aa);
     background: linear-gradient( to bottom, white, #dcc7aa);*/
 
-
-	min-width: 1650px;
-	margin-left: 7%;
-	margin-right: 7%;
+    min-width: 1200px;
+	margin-left: 15%;
+	margin-right: 15%;
 	/*background-color: #393f4d; SLATE COLOR 
 	background-color: #4b391f;*/
 }
@@ -62,7 +61,7 @@ p{
 }
 
 #BodyDiv { 
-	width: 50%;
+	width: 100%;
 	float: left;
 	position: relative;
 	/*padding-right: 50px;
