@@ -1,23 +1,6 @@
 html {
 	height: auto;
-}
 
-h1 {
-	font: 150px Verdana, sans-serif;
-	width: 100%;
-	font-weight: 100;
-	text-align: center;
-}
-
-body {
-	height: 100%;
-	/*background-repeat: no-repeat;
-	background-attachment: fixed;
-	margin: 0;
-	background-image: linear-gradient(white, #dcc7aa);*/
-
-
-	height: 100%;
 	margin: 0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -32,10 +15,41 @@ body {
     background: -o-linear-gradient( to bottom, white, #dcc7aa);
     background: linear-gradient( to bottom, white, #dcc7aa);
 
+}
+
+h1 {
+	font: 150px Verdana, sans-serif;
+	width: 100%;
+	font-weight: 100;
+	text-align: center;
+}
+
+body {
+	height: 100%;
+	/*background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0;
+	background-image: linear-gradient(white, #dcc7aa);
+
+
+	margin: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #dcc7aa;
+    background-repeat: no-repeat;
+    background: linear-gradient(white, #dcc7aa);
+    background: -webkit-linear-gradient( to bottom, white, #dcc7aa);
+    background: -moz-linear-gradient( to bottom, white, #dcc7aa);
+    background: -ms-linear-gradient( to bottom, white, #dcc7aa);
+    background: -o-linear-gradient( to bottom, white, #dcc7aa);
+    background: linear-gradient( to bottom, white, #dcc7aa);*/
+
 
 	min-width: 1650px;
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 7%;
+	margin-right: 7%;
 	/*background-color: #393f4d; SLATE COLOR 
 	background-color: #4b391f;*/
 }
@@ -54,7 +68,9 @@ p{
 	/*padding-right: 50px;
 	padding-left: 50px;*/
 	height:500px;
-	margin: 150px auto;
+	padding-top: 50px;
+	padding-bottom:  300px;
+	/*margin: 150px auto;*/
 	text-align: center;
 }
 
@@ -115,12 +131,13 @@ p{
 					/*THE MOUNTAIN ----------------------------------------------------------------------*/
 
 .Mountain .btn {
-  	top: 10%;
+  	top: 12%;
   	left: 50%;
 }
 
 .Mountain img {
   	width: 800px;
+  	/*height: 158%;*/
   	height: 158%;
 }
 
@@ -128,30 +145,32 @@ p{
 
 
 .Quizlet .btn {
-  	top: 10%;
+  	top: 12%;
   	left: 50%;
 }
 
 .Quizlet img {
 	width: 800px;
+  	/*height: 158%;*/
   	height: 158%;
 }
 					/*MOUNTAIN CLIMBERS ----------------------------------------------------------------------*/
 
 .Climbers .btn {
-  	top: 10%;
+  	top: 12%;
   	left: 50%;
 }
 
 .Climbers img {
 	width: 800px;
-  	height: 158%;;
+  	/*height: 158%;*/
+  	height: 158%;
 }
 
 					/*TANKAGA ----------------------------------------------------------------------*/
 
 .Tankaga .btn {
-  	top: 10%;
+  	top: 12%;
   	left: 50%;
 }
 
@@ -164,25 +183,27 @@ p{
 					/*XAMARIN ----------------------------------------------------------------------*/
 
 .Xamarin .btn {
-  	top: 10%;
+  	top: 12%;
   	left: 50%;
 }
 
 .Xamarin img {
 	width: 800px;
-  	height: 165%;
+	/*height: 165%;*/
+  	height: 158%;
 }
 
 					/*VR Game ----------------------------------------------------------------------*/
 
 .VR .btn {
-  	top: 10%;
+  	top: 12%;
   	left: 50%;
 }
 
 .VR img {
 	width: 800px;
-  	height: 165%;
+  	/*height: 165%;*/
+  	height: 158%;
 }
 
 /*
