@@ -1,3 +1,7 @@
+html {
+	height: auto;
+}
+
 h1 {
 	font: 150px Verdana, sans-serif;
 	width: 100%;
@@ -7,10 +11,26 @@ h1 {
 
 body {
 	height: 100%;
-	background-repeat: no-repeat;
+	/*background-repeat: no-repeat;
 	background-attachment: fixed;
 	margin: 0;
-	background-image: linear-gradient(white, #dcc7aa);
+	background-image: linear-gradient(white, #dcc7aa);*/
+
+
+	height: 100%;
+	margin: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #dcc7aa;
+    background-repeat: no-repeat;
+    background: linear-gradient(white, #dcc7aa);
+    background: -webkit-linear-gradient( to bottom, white, #dcc7aa);
+    background: -moz-linear-gradient( to bottom, white, #dcc7aa);
+    background: -ms-linear-gradient( to bottom, white, #dcc7aa);
+    background: -o-linear-gradient( to bottom, white, #dcc7aa);
+    background: linear-gradient( to bottom, white, #dcc7aa);
 
 
 	min-width: 1650px;
