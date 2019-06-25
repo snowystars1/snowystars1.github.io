@@ -88,6 +88,7 @@ div.desc {
   	text-decoration: none;
   	display: inline-block;
   	font-family: Verdana, Geneva, sans-serif;
+    font-size: 38px;
   	/*margin: 4px 2px;*/
   	cursor: pointer;
   	-webkit-transition-duration: 0.4s; /* Safari */
